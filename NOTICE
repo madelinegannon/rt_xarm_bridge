@@ -1,0 +1,13 @@
+rt_xarm_bridge
+Copyright 2024-2026 ATONATON, LLC
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+ATONATON is a trademark of ATONATON, LLC and is not licensed. Nothing in
+this work grants a right to use it beyond the reasonable and customary
+attribution of the origin of the work.
+
+The fallback joint-limit table for the xArm 850 derives from UFACTORY's
+xarm_ros2 robot description (BSD-3-Clause, Copyright (c) UFACTORY).
+UFACTORY and xArm are trademarks of their owner; this project is not
+affiliated with or endorsed by UFACTORY.

@@ -1,0 +1,25 @@
+# Declared controller safety configuration for rt_xarm_bridge.
+#
+# Before the bridge arms the robot it reads these settings back from the controller and refuses on
+# any difference. Every key must be set: null means "not decided", and "not decided" is refused.
+# Copy this file to safety.yaml and fill it in from your cell's risk assessment. The values are
+# yours to choose; the bridge only insists that the controller actually has them.
+
+# Collision detection level as set in UFACTORY Studio: 0 disables detection, 1-5 enable it.
+collision_sensitivity: null
+
+# Controller reduced mode (speed and boundary limits enforced by the controller): true or false.
+reduced_mode: null
+
+# Controller TCP boundary ("fence") enforced: true or false.
+fence_mode: null
+
+# The TCP boundary box the controller must enforce, controller millimetres:
+# [x_max, x_min, y_max, y_min, z_max, z_min]. The controller's box must lie inside this one.
+tcp_boundary_mm: null
+
+# The controller's reduced-mode TCP speed limit must be at or below this (mm/s).
+max_tcp_speed_mm_s: null
+
+# The controller's reduced-mode joint speed limit must be at or below this (rad/s).
+max_joint_speed_rad_s: null
